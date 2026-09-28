@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#061523" />
+  <meta name="description" content="Cotação de planos de saúde com atendimento personalizado do vendedor Renato. Solicite sua cotação pelo WhatsApp." />
+  <title>Seu plano de saúde, do seu jeito | Renato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="google-site-verification" content="IUChN8uBU8RZko5MUEDQkG5_XITUvAJLrrbM0vSdORw" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="progress" id="progress"></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Renato Planos de Saúde">
+      <span class="brand-mark">R</span>
+      <span><strong>Renato</strong><small>Planos de Saúde</small></span>
+    </a>
+    <nav class="nav-links">
+      <a href="#planos">Planos</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="nav-cta" data-wa href="#">Falar no WhatsApp <span>↗</span></a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="pulse-dot"></span> Atendimento personalizado</div>
+          <h1>Cuide da sua saúde com <em>mais tranquilidade.</em></h1>
+          <p class="hero-text">Encontre opções de plano de saúde para você, sua família ou sua empresa, com orientação de ponta a ponta.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" data-wa href="#">Quero minha cotação <span>→</span></a>
+            <a class="btn btn-ghost" href="#planos">Conhecer opções</a>
+          </div>
+          <div class="trust-row">
+            <div class="trust-item"><b>01</b><span>Atendimento<br>humanizado</span></div>
+            <div class="trust-item"><b>02</b><span>Cotação<br>personalizada</span></div>
+            <div class="trust-item"><b>03</b><span>Suporte<br>no WhatsApp</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="orb orb-a"></div><div class="orb orb-b"></div>
+          <div class="hero-card">
+            <div class="hero-card-top"><span>CONSULTOR</span><span class="live"><i></i> online</span></div>
+            <div class="portrait-wrap">
+              <img src="assets/renato.jpg" alt="Renato, consultor de planos de saúde" />
+            </div>
+            <div class="hero-card-bottom">
+              <div><span>Atendimento</span><strong>Renato</strong></div>
+              <div class="mini-arrow">↗</div>
+            </div>
+          </div>
+          <div class="float-card float-one"><span class="float-icon">✓</span><div><b>Cotação rápida</b><small>sem compromisso</small></div></div>
+          <div class="float-card float-two"><span class="float-icon">✦</span><div><b>Atendimento</b><small>personalizado</small></div></div>
+        </div>
+      </div>
+      <div class="scroll-hint"><span></span> role para explorar</div>
+    </section>
+
+    <section class="showcase section-pad" aria-label="Momentos de destaque do Renato">
+      <div class="showcase-head reveal">
+        <div>
+          <span class="eyebrow">DEDICAÇÃO E RECONHECIMENTO</span>
+          <h2>Experiência que vai além do <em>atendimento.</em></h2>
+        </div>
+        <div class="slider-controls" aria-label="Controles do slide">
+          <button class="slider-btn" id="prevSlide" type="button" aria-label="Slide anterior">←</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextSlide" type="button" aria-label="Próximo slide">→</button>
+        </div>
+      </div>
+
+      <div class="showcase-slider reveal" id="showcaseSlider">
+        <div class="showcase-track" id="showcaseTrack">
+          <article class="showcase-slide active">
+            <div class="showcase-photo"><img src="assets/slide-01.jpeg" alt="Renato em evento de reconhecimento"><span class="slide-count">01 / 06</span></div>
+            <div class="showcase-info"><span class="tag">Presença e dedicação</span><h3>Atendimento com <em>propósito</em></h3><p>Um atendimento próximo começa com dedicação, presença e vontade de fazer a diferença na vida de cada cliente.</p><a class="btn btn-primary" data-wa-msg="Olá Renato! Vi seu site e quero conhecer as opções de planos." href="#">Quero conversar <span>→</span></a></div>
+          </article>
+          <article class="showcase-slide">
+            <div class="showcase-photo"><img src="assets/slide-02.jpeg" alt="Reconhecimento recebido por Renato em evento"><span class="slide-count">02 / 06</span></div>
+            <div class="showcase-info"><span class="tag">Reconhecimento</span><h3>Resultado também é <em>reconhecimento</em></h3><p>Momentos especiais representam o resultado de um trabalho construído com constância, relacionamento e compromisso.</p><a class="btn btn-primary" data-wa-msg="Olá Renato! Quero conhecer seu atendimento e as opções de planos." href="#">Falar com Renato <span>→</span></a></div>
+          </article>
+          <article class="showcase-slide">
+            <div class="showcase-photo"><img src="assets/slide-03.jpeg" alt="Renato recebendo reconhecimento"><span class="slide-count">03 / 06</span></div>
+            <div class="showcase-info"><span class="tag">Compromisso</span><h3>Uma trajetória feita de <em>conquistas.</em></h3><p>Cada conquista reforça o compromisso de continuar oferecendo uma experiência comercial clara e personalizada.</p><a class="btn btn-primary" data-wa-msg="Olá Renato! Quero receber uma orientação sobre planos de saúde." href="#">Quero saber mais <span>→</span></a></div>
+          </article>
+          <article class="showcase-slide">
+            <div class="showcase-photo"><img src="assets/slide-04.jpeg" alt="Trofeu de reconhecimento de Renato"><span class="slide-count">04 / 06</span></div>
+            <div class="showcase-info"><span class="tag">Conquistas</span><h3>Dedicação que gera <em>resultados.</em></h3><p>Por trás de cada resultado existe uma rotina de trabalho, aprendizado e atenção aos detalhes.</p><a class="btn btn-primary" data-wa-msg="Olá Renato! Quero conversar sobre uma cotação de plano de saúde." href="#">Solicitar atendimento <span>→</span></a></div>
+          </article>
+          <article class="showcase-slide">
+            <div class="showcase-photo"><img src="assets/slide-05.jpeg" alt="Renato com trofeu de reconhecimento"><span class="slide-count">05 / 06</span></div>
+            <div class="showcase-info"><span class="tag">Excelência</span><h3>Mais que vender: <em>orientar.</em></h3><p>A ideia é entender o seu momento e apresentar caminhos para você avaliar com tranquilidade.</p><a class="btn btn-primary" data-wa-msg="Olá Renato! Quero entender qual plano pode fazer sentido para mim." href="#">Conversar agora <span>→</span></a></div>
+          </article>
+          <article class="showcase-slide">
+            <div class="showcase-photo"><img src="assets/slide-06.jpeg" alt="Momento de reconhecimento em evento"><span class="slide-count">06 / 06</span></div>
+            <div class="showcase-info"><span class="tag">Confiança</span><h3>Uma relação construída com <em>confiança.</em></h3><p>O atendimento continua depois do primeiro contato: tirar dúvidas, comparar possibilidades e acompanhar sua decisão.</p><a class="btn btn-primary" data-wa-msg="Olá Renato! Quero falar sobre as opções de planos disponíveis." href="#">Falar pelo WhatsApp <span>→</span></a></div>
+          </article>
+        </div>
+        <div class="slider-progress" aria-hidden="true"><span id="sliderProgress"></span></div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="planos">
+      <div class="section-head reveal">
+        <div><span class="eyebrow">ENCONTRE O SEU</span><h2>Uma opção para cada <em>momento.</em></h2></div>
+        <p>Escolha uma categoria e fale diretamente com o Renato para entender as opções disponíveis para o seu perfil.</p>
+      </div>
+      <div class="plan-grid">
+        <article class="plan-card reveal">
+          <div class="plan-img"><img src="assets/plano_individual.png" alt="Plano infantil" loading="lazy"><span class="number">01</span></div>
+          <div class="plan-body"><span class="tag">0–18 anos</span><h3>Plano <em>Infantil</em></h3><p>Para cuidar dos pequenos com uma opção adequada à rotina da família.</p><a class="text-link" data-wa-msg="Olá Renato! Quero uma cotação para plano infantil." href="#">Solicitar cotação <span>→</span></a></div>
+        </article>
+        <article class="plan-card reveal reveal-delay">
+          <div class="plan-img"><img src="assets/individual.png" alt="Plano individual" loading="lazy"><span class="number">02</span></div>
+          <div class="plan-body"><span class="tag">Pessoa física</span><h3>Plano <em>Individual</em></h3><p>Uma alternativa para quem busca atendimento individual e orientação personalizada.</p><a class="text-link" data-wa-msg="Olá Renato! Quero uma cotação para plano individual." href="#">Solicitar cotação <span>→</span></a></div>
+        </article>
+        <article class="plan-card reveal">
+          <div class="plan-img"><img src="assets/familiar.png" alt="Plano familiar" loading="lazy"><span class="number">03</span></div>
+          <div class="plan-body"><span class="tag">Família</span><h3>Plano <em>Familiar</em></h3><p>Compare possibilidades para proteger quem está com você todos os dias.</p><a class="text-link" data-wa-msg="Olá Renato! Quero uma cotação para plano familiar." href="#">Solicitar cotação <span>→</span></a></div>
+        </article>
+        <article class="plan-card reveal reveal-delay">
+          <div class="plan-img"><img src="assets/empresarial.png" alt="Plano empresarial" loading="lazy"><span class="number">04</span></div>
+          <div class="plan-body"><span class="tag">Empresas</span><h3>Plano <em>Empresarial</em></h3><p>Opções para empresas que buscam oferecer assistência aos seus colaboradores.</p><a class="text-link" data-wa-msg="Olá Renato! Quero uma cotação para plano empresarial." href="#">Solicitar cotação <span>→</span></a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="how section-pad" id="como-funciona">
+      <div class="how-panel reveal">
+        <div class="how-copy">
+          <span class="eyebrow">SEM COMPLICAÇÃO</span>
+          <h2>Da primeira mensagem até a sua <em>decisão.</em></h2>
+          <p>Você não precisa descobrir tudo sozinho. O atendimento é feito pelo WhatsApp, de forma simples e direta.</p>
+          <a class="btn btn-primary" data-wa href="#">Começar agora <span>→</span></a>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><div><h3>Conte o que você precisa</h3><p>Perfil, faixa etária e objetivo da contratação.</p></div></div>
+          <div class="step"><span>02</span><div><h3>Receba as opções</h3><p>O Renato orienta você sobre as alternativas disponíveis.</p></div></div>
+          <div class="step"><span>03</span><div><h3>Tire suas dúvidas</h3><p>Converse pelo WhatsApp antes de tomar qualquer decisão.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote section-pad">
+      <div class="quote-inner reveal">
+        <span class="quote-mark">“</span>
+        <p>Uma escolha importante merece uma conversa clara, sem complicação e sem pressão.</p>
+        <div class="quote-author"><img src="assets/renato.jpg" alt="Renato"><span><strong>Renato</strong><small>Consultor de planos de saúde</small></span></div>
+      </div>
+    </section>
+
+    <section class="lead section-pad" id="cotacao">
+      <div class="lead-grid">
+        <div class="lead-copy reveal">
+          <span class="eyebrow">FALE COMIGO</span>
+          <h2>Vamos encontrar uma opção para <em>você?</em></h2>
+          <p>Preencha os dados ao lado. Ao enviar, o WhatsApp será aberto com uma mensagem pronta para o Renato.</p>
+          <div class="contact-card"><div class="contact-avatar"><img src="assets/renato.jpg" alt="Renato"></div><div><small>Seu atendimento será com</small><strong>Renato</strong><span>WhatsApp: (85) 8117-8648</span></div></div>
+        </div>
+        <form class="lead-form reveal reveal-delay" id="leadForm">
+          <div class="form-title"><span>01</span><div><h3>Solicite sua cotação</h3><p>Leva menos de 1 minuto.</p></div></div>
+          <label>Seu nome<input id="name" required placeholder="Como podemos chamar você?" /></label>
+          <div class="form-row"><label>WhatsApp<input id="phone" inputmode="tel" placeholder="(00) 00000-0000" /></label><label>Idade<input id="age" inputmode="numeric" placeholder="Ex.: 32" /></label></div>
+          <label>O que você procura?<select id="type"><option>Plano individual</option><option>Plano familiar</option><option>Plano infantil</option><option>Plano empresarial</option><option>Ainda não sei</option></select></label>
+          <button class="btn btn-primary btn-full" type="submit">Enviar pelo WhatsApp <span>↗</span></button>
+          <small class="form-note">Ao continuar, você será direcionado ao WhatsApp para concluir o atendimento.</small>
+        </form>
+      </div>
+    </section>
+
+    <section class="faq section-pad" id="duvidas">
+      <div class="section-head reveal"><div><span class="eyebrow">DÚVIDAS</span><h2>Antes de falar, <em>quer saber?</em></h2></div></div>
+      <div class="faq-list">
+        <details class="reveal"><summary>Preciso fechar o plano pelo site?</summary><p>Não. O site é uma porta de entrada. Depois do formulário, você conversa diretamente com o Renato pelo WhatsApp.</p></details>
+        <details class="reveal"><summary>A cotação tem custo?</summary><p>O contato inicial e a solicitação de cotação são apresentados como atendimento comercial. As condições do plano serão explicadas durante a conversa.</p></details>
+        <details class="reveal"><summary>Posso pedir opções para minha família?</summary><p>Sim. Selecione “Plano familiar” no formulário e informe ao Renato quem será incluído para que ele possa orientar você.</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta section-pad">
+      <div class="final-panel reveal">
+        <div class="final-glow"></div>
+        <span class="eyebrow">SEU PRÓXIMO PASSO</span>
+        <h2>Uma conversa pode deixar tudo <em>mais simples.</em></h2>
+        <p>Fale com o Renato e solicite sua cotação personalizada.</p>
+        <a class="btn btn-primary" data-wa href="#">Chamar no WhatsApp <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><span class="brand-mark">R</span><span><strong>Renato</strong><small>Planos de Saúde</small></span></div><p>Atendimento comercial • WhatsApp (85) 8117-8648</p><span>© <span id="year"></span> Renato Planos de Saúde</span></footer>
+
+  <a class="whatsapp-float" data-wa href="#" aria-label="Falar com Renato no WhatsApp"><span class="wa-icon">◔</span><span class="wa-label">Falar com Renato</span></a>
+  <script src="script.js"></script>
+</body>
+</html>
