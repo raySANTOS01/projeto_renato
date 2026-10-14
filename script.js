@@ -1,4 +1,4 @@
-const WA_NUMBER = '558581178648';
+const WA_NUMBER = '11923366924';
 const baseMessage = 'Olá Renato! Vim pelo site e gostaria de fazer uma cotação de plano de saúde.';
 const waUrl = (message) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(message)}`;
 
